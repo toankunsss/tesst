@@ -1,0 +1,710 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#container{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: none;
+    width: 100%;
+    height: 180.41px;
+    position: relative;
+}
+
+.thanhden{
+    width: 100%;
+    height: 52.28px;
+    align-items: center;
+    background-color: #282828;
+    flex: none;
+    flex-grow: 0;
+    position: relative;
+}
+.vectorphai{
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0.840001px 2.25px 0.84px 0px;
+    position: absolute;
+    color: white;
+    width: 12px;
+    height: 10px;
+    left: calc(50% - 12px/2 + 293.5px);
+    top: 21.14px;
+}
+.chufree{
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 14px 171.41px 15.28px 171.59px;
+    flex: none;
+}
+.vectortrai{
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0.840001px 0px 0.84px 2.25px;
+    position: absolute;
+    color: white;
+    width: 12px;
+    height: 10px;
+    left: calc(50% - 12px/2 - 293.5px);
+    top: 21.14px;
+}
+
+.thanhvang {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 128.13px;
+    background: #F9F2E6;
+    box-shadow: 0px 1px 0px #DFDFDF;
+    flex: none;
+    flex-grow: 0;
+}
+.trongvang1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1520px;
+    height: 83.13px;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.khuonchutimkiem{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 652px;
+    height: 24.27px;
+    order: 0;
+    flex-grow: 1;
+}
+.timkiem{
+    background: url("../img/kinhlup.png") no-repeat;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0.999823px 0.999999px 0.999999px 0.999823px;
+    width: 18px;
+    height: 18px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.chutimkiem{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 3px 0px 3.27px;
+    width: 300px;
+    min-width: 300px;
+    height: 24.27px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.khuongiua{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    width: 216px;
+    height: 53.13px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.thanhlogo{
+    width: 160.84px;
+    height: 40.13px;
+    border: 3px solid #A4581B;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    position: relative;
+    margin-top: -20px;
+}
+.logo{
+    background-color:#F9F2E6 ;
+    width: 216px;
+    height: 30px;
+    font-size: 55.5px;
+    margin-top: 8px;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0C2B63;
+}
+.khuonphai{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 30px;
+    width: 652px;
+    height: 24.28px;
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+}
+.phai1{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 1px 0px 0px;
+    width: 92px;
+    height: 24.28px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.phai11{
+    width: 73px;
+    height: 23px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 22px;
+    justify-content: flex-start;
+    color: #282828;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.phai12{   
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0.75px 0.75px 1.5px;
+    width: 9px;
+    height: 6px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.phai2{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 0px;
+    gap: 24px;
+    width: 104.19px;
+    height: 18px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.phai21{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1px 1px 0px;
+    gap: 4px;
+    width: 18px;
+    height: 17px;
+    flex: none;
+    order: 0; 
+}
+.phai22{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 1.125px 0.0950005px 1.44141px 0.095px;
+    width: 18.19px;
+    height: 18px;
+    flex: none;
+    order: 1;
+}
+.phai23{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 0px;
+    isolation: isolate;
+    width: 20px;
+    height: 18px;
+    flex: none;
+    order: 2;
+}
+.trongvang2{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 0px;
+    width: 1520px;
+    height: 45px;
+    border-top: 1px solid #DFDFDF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.trongvang22{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 0px 384.06px 0px 384.17px;
+    row-gap: 0px;
+    width: 1720px;
+    height: 25px;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 31.89px;
+}
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.menu ul li {
+    display: inline;
+    margin-right: 50px;
+}
+.menu ul li a {
+    text-decoration: none;
+    color: #282828; 
+}
+  
+
+   
+   
+
+    
+
+.container2{
+    position: absolute;
+    width: 100%;
+    height: 637px;
+    left: 1px;
+    top: 1650px;
+    background: #F9F2E6;
+    border-top: 2px solid #0C2B63;
+}
+.trongcuoi{
+    margin: 46px 280px 21px 271px;
+    position:absolute;
+    width: 1299px;
+    height: 570px;
+}
+.cuoi1{
+    position: relative;
+    margin: 0px 1495px 407x 0px;
+    width: 130px;
+    height: 155x;
+}
+.onlineshopping{
+    position: relative;
+    width: 114px;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    color: #282C3F;
+}
+.dscuoi1 ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.dscuoi1 ul li {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    color: #696B79;
+}
+.dscuoi1 ul li a {
+    text-decoration: none;
+    color: inherit;
+}
+.cuoi2{
+    position: relative;
+    margin-top: 15px;
+    width: 120px;
+    height: 140px;
+}
+.usefullinks{
+    position: relative;
+    width: 135px;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    color: #282C3F;
+}
+.dscuoi2 ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.dscuoi2 ul li {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    color: #696B79;
+}
+.dscuoi2 ul li a {
+    text-decoration: none;
+    color: inherit;
+}
+.cuoi3{
+    position: absolute;
+    margin-left: 140px;
+    width: 150px;
+    top: 0;
+    height: 279px;
+    left: 50px;
+}
+.customerpoliciies{ 
+    position: relative;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    color: #282C3F;
+}
+.dscuoi3 ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.dscuoi3 ul li {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    color: #696B79;
+}
+.dscuoi3 ul li a {
+    text-decoration: none;
+    color: inherit;
+}
+.cuoi4{
+    position: absolute;
+    margin-left: 340px;
+    left: 50px;
+    top: 0;
+    width: 270px;
+    height: 100px;
+}
+.experiencemobileapp{
+    position: absolute;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #282C3F;
+}
+.ggplay{
+    position: absolute;
+    width: 150px;
+    height: 80px;
+    margin-top: 20px;
+    background: url("../img/ggplay.png") no-repeat;
+}
+.appstore{
+    position: relative;
+    width: 150px;
+    height: 80px;
+    margin-left: 150px;
+    margin-top: 20px;
+    background: url("../img/appstore.png") no-repeat;
+}
+.cuoi5{
+    position: absolute;
+    margin-left: 390px;
+    width: 150px;
+    height: 80px;
+    top: 110px;
+}
+.keepintouch{
+    position: absolute;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #282C3F;
+}
+.fb{
+    position: absolute;
+    margin-left: 0;
+    top: 30px;
+}
+.twitter{
+    position: absolute;
+    margin-left: 40px;
+    top: 30px;
+}
+.youtube{
+    position: absolute;
+    margin-left: 80px;
+    top: 30px;
+}
+.instagram{
+    position: absolute;
+    margin-left: 130px;
+    top: 30px;
+}
+.cuoi6{
+    position: absolute;
+    margin-left: 670px;
+    left: 50px;
+    top: 0;
+    width: 270px;
+    height: 100px;
+}
+.cuoi61{
+    position: absolute;
+    width: 270px;
+    height: 50px;
+}
+.lgori{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+.chu100{
+    position: relative;
+    top: 0px;
+    left: 50px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #282C3F;
+}
+.chubeduoi{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #696B79;
+    margin-left: 50px;
+    top: 20px;
+}
+.cuoi62{
+    position: absolute;
+    width: 270px;
+    height: 50px;
+    margin-top: 50px;
+}
+.lgnha{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.chureturn{
+    position: relative;
+    top: 0px;
+    left: 50px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #282C3F;
+}
+.chubeduoi1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #696B79;
+    margin-left: 50px;
+    top: 20px;
+}
+.cuoi7{
+    position: absolute;
+    margin-left: 900px;
+    left: 70px;
+    top: 0;
+    width: 300px;
+    height: 150px;
+}
+.joinus{
+    position: absolute;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    top: 0;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #282C3F;
+}
+.sub{
+    position: absolute;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 27px;
+    top: 30px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #828282;
+}
+.khungemail{
+    box-sizing: border-box;
+    position: absolute;
+    width: 300px;
+    height: 40px;
+    border: 1px solid #000000;
+    top: 60px;
+}
+.chuemail{
+    position: absolute;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    margin-left: 20px;
+    top: 5px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+.khungsub{
+    position: absolute;
+    width: 300px;
+    height: 40px;
+    top: 110px;
+    background-color: #0C2B63;
+}
+.chusub{
+    position: absolute;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin-left: 120px;
+    top: 8px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.cuoi8{
+    position: absolute;
+    width: 1075px;
+    height: 124px;
+    margin-top: 30px;
+}
+.popular{
+    position: absolute;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    color: #282C3F;
+}
+.chudai{
+    position: absolute;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    color: #696B79;
+    top: 20px;
+}
+.dongline{
+    position: absolute;
+    opacity: 0.2;
+    border: 1px solid #000000;
+    top: 500px;
+    width: 1299px;
+}
+.cuoitrang{
+    position: absolute;
+    width: 1299px;
+    height: 20px;
+    bottom: 0;
+}
+.cuoitrai{
+    position: absolute;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #696B79;
+}
+.cuoiphai{
+    position: absolute;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    margin-left: 1000px;
+    text-transform: capitalize;
+    color: #696B79;
+}
+
+
+

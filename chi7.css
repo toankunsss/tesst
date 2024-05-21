@@ -1,0 +1,70 @@
+.my-address{
+    width: 70%;
+    align-items: start;
+    margin-top: 2%;
+    margin-left: 3%;
+}
+.my-address span,
+.content-addres{
+    font-size: 24px;
+    font-family: "Oswald",sans-serif;
+    font-weight: 400;
+}
+.contac-inf{
+    display: flex;
+    margin-bottom: 5%;
+}
+.content-if{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 50%;
+}
+.tieude{
+    font-size: 18px;
+    font-family: "Oswald",sans-serif;
+    font-weight: 500;
+    color: #3F3F3F;
+}
+.noidung{
+    font-size: 15px;
+    font-weight: 400;
+    color: #828282;
+    font-family: "Poppins",sans-serif;
+    height: 44px;
+}
+.action-myaddr{
+    display: flex;
+    gap: 10px;
+
+    
+}
+.cont1{
+    display: block;
+    background-color: #E6F1FA;
+    padding: 1% 3% 1% 3%;
+    font-size: 14px;
+    font-family: "Poppins",sans-serif;
+    cursor: pointer;
+    font-weight: 500;
+}
+.noidung1{
+    font-size: 15px;
+    font-weight: 400;
+    color: #828282;
+    font-family: "Poppins",sans-serif;
+}
+.addres-book{
+    display: flex;
+    width: 50%;
+    gap: 5%;
+}
+.cont-chinhsua{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E6F1FA;
+    padding: 0 2% 0 2%;
+    cursor: pointer;
+
+}

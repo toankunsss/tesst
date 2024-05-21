@@ -1,0 +1,61 @@
+span{
+    color: red;
+}
+.dienthongtin-8{
+    margin-top:2%;
+    margin-left: 3%;
+}
+.dienthongtin-8 h3{
+    margin-bottom: 10%;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Oswald", sans-serif;
+}
+.dienthongtin-8 table {
+    width: 80%;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+.dienthongtin-8 table tr{
+    margin-bottom: 7%;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    align-items: center;
+}
+.dienthongtin-8 table td{
+    width: 50%;
+
+}
+select,
+.dienthongtin-8 input[type="text"]{
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    border: 1px solid #C4C4C4;
+    padding: 3px;
+    width: 200%;
+    color: #828282;
+}
+.btn-edit1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Oswald", sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        color: #fff;
+        background-color: #0C2B63;
+        padding: 1%;
+        margin-top: 10%;
+        border: solid;
+        width: 90%;
+        padding: 8%;
+}
+.btn-edit1:hover{
+        background-color:#325597;
+    }
+
+.error { color: red; }
